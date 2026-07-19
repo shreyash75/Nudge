@@ -6,6 +6,7 @@ metadata:
   namespace: nudge
 
 spec:
+  storageClassName: gp2
   accessModes:
     - ReadWriteOnce
 
