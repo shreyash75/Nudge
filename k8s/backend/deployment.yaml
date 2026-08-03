@@ -32,7 +32,7 @@ spec:
             echo "Postgres is ready!"
       containers:
       - name: backend
-        image: shreyash75/nudge-backend:initial
+        image: shreyash75/nudge-backend:e234af1
         imagePullPolicy: Always
         ports:
         - containerPort: 5000

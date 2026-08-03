@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: shreyash75/nudge-frontend:initial
+        image: shreyash75/nudge-frontend:e234af1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
