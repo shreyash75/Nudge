@@ -59,7 +59,7 @@ jobs:
         run: |
           IMAGE_TAG=${{ steps.sha.outputs.short }}
 
-          sed -i "s|image: shreyash75/nudge-backend:.*|image: shreyash75/nudge-backend:${IMAGE_TAG}|" k8s/backend/deployment.yml
+          sed -i "s|image: shreyash75/nudge-backend:.*|image: shreyash75/nudge-backend:${IMAGE_TAG}|" k8s/backend/deployment.yaml
 
       - name: Update frontend image
         run: |
